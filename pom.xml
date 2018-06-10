@@ -5,7 +5,7 @@
 
 	<groupId>com.spring-boot.examples</groupId>
 	<artifactId>hello-world</artifactId>
-	<version>1.0</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>hello-world</name>
@@ -60,9 +60,23 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>external.atlassian.jgitflow</groupId>
+				<artifactId>jgitflow-maven-plugin</artifactId>
+				<version>1.0-m5.1</version>
+				<configuration>
+					<flowInitContext>
+						<masterBranchName>master</masterBranchName>
+						<developBranchName>development</developBranchName>
+						<featureBranchPrefix>feature-</featureBranchPrefix>
+						<releaseBranchPrefix>release-</releaseBranchPrefix>
+						<hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+						<versionTagPrefix>version-</versionTagPrefix>
+					</flowInitContext>
+				</configuration>
+			</plugin>			
 		</plugins>
 	</build>
-
 	<repositories>
 		<repository>
 		<id>repo.spring.io</id>
