@@ -57,7 +57,7 @@ pipeline {
             }
             steps {
                 sleep(new Random().nextInt(10) * 5)
-                sh "mvn compile"
+                sh "mvn deploy"
             }            
         }  
 
