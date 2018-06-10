@@ -39,7 +39,7 @@ pipeline {
                         label "master"
                     }
                     steps {
-                        sh "mvn test"
+                        sh "mvn install sonar:sonar"
                     }
                     post {
                         always {
