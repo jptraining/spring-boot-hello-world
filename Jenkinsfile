@@ -6,8 +6,14 @@ pipeline {
                 label "master"
             }
             steps {
-                //properties([pipelineTriggers([[$class: 'GitHubPushTrigger'], pollSCM('H/15 * * * *')])])
+                script {                
+                    properties([pipelineTriggers([[$class: 'GitHubPushTrigger'], pollSCM('H/15 * * * *')])])
+                }    
                 checkout scm
+                script {
+                    pom = readMavenPom file: 'pom.xml'
+                    currentBuild.displayName = "v" + pom.version
+                }                                                
             }            
         } 
         stage('Building Source Code') {
