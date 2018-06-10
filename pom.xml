@@ -4,7 +4,7 @@
 
 	<groupId>com.spring-boot.examples</groupId>
 	<artifactId>hello-world</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>hello-world</name>
