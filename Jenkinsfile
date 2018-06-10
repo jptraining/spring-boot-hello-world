@@ -21,7 +21,6 @@ pipeline {
                 label "master"
             }
             steps {
-                sleep(new Random().nextInt(10) * 2)
                 sh "mvn compile"
             }            
         }                    
@@ -56,7 +55,6 @@ pipeline {
                 label "master"
             }
             steps {
-                sleep(new Random().nextInt(10) * 5)
                 sh "mvn deploy"
             }            
         }  
@@ -66,7 +64,6 @@ pipeline {
                 label "master"
             }
             steps {
-                sleep(new Random().nextInt(10) * 2)
                 sh "mvn compile"
             }            
         }  
@@ -76,7 +73,6 @@ pipeline {
                 label "master"
             }
             steps {
-                sleep(new Random().nextInt(10) * 2)
                 sh "mvn compile"
             }            
         }  
