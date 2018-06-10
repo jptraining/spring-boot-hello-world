@@ -1,0 +1,10 @@
+#Télécharger spring-boot-CLI
+http://bit.ly/1PVH643
+
+spring init --build maven --groupId com.spring-boot.examples --version 1.0 --java-version 1.8 --dependencies web --name hello-world hell
+o-world
+
+mvn clean package spring-boot:run
+
+#Appli backend
+mvn clean install jetty:run

@@ -1,0 +1,23 @@
+{
+    "remotePath": "./spring-boot-hello-world",
+    "host": "35.188.73.48",
+    "username": "niclettel",
+    "port": 22,
+    "secure": true,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": "C:/Users/Jérôme/id_rsa_gcp.key",
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}
