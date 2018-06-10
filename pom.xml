@@ -56,9 +56,9 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
+				<groupId>org.codehaus.sonar</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.4.0.905</version>
+				<version>4.5.7</version>
 			</plugin>		
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
