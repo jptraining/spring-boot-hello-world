@@ -86,8 +86,7 @@
 		<id>repo.spring.io</id>
 		<url>https://repo.spring.io/libs-snapshot/</url>
 		</repository>
-	</repositories>
-		
+	</repositories>		
     <distributionManagement>
         <repository>
             <id>release</id>
