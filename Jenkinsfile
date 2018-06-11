@@ -44,6 +44,7 @@ pipeline {
                             //sh "mvn install sonar:sonar -Dsonar.host.url='http://sonar:9000'"
                         }
                     }
+                    
                     post {
                         always {
                             echo "Checks OK"
