@@ -8,7 +8,7 @@
     "uploadOnSave": true,
     "passive": false,
     "debug": false,
-    "privateKeyPath": "C:/Users/Jérôme/id_rsa_gcp.key",
+    "privateKeyPath": "C:/training/sshkey/id_rsa_gcp.key",
     "passphrase": null,
     "ignore": [
         "\\.vscode",
