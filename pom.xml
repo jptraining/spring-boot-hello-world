@@ -91,12 +91,12 @@
         <repository>
             <id>release</id>
             <name>release</name>
-            <url>http://nexus:8081/repository/releases/</url>
+            <url>http://35.192.101.66:8081/repository/releases/</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>snapshots</name>
-            <url>http://nexus:8081/repository/snapshots/</url>
+            <url>http://35.192.101.66:8081/repository/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>	
 </project>
