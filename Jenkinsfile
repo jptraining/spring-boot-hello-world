@@ -41,7 +41,8 @@ pipeline {
                     }
                     steps {
                         withSonarQubeEnv('sonar') {
-                            sh "mvn install sonar:sonar -Dsonar.host.url='http://sonar:9000'"
+//                            sh "mvn install sonar:sonar -Dsonar.host.url='http://sonar:9000'"
+                            sh "mvn install"
                         }
                     }
                     post {
