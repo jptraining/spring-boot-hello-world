@@ -24,6 +24,7 @@ pipeline {
                 sh "mvn compile"
             }            
         }                    
+
         stage('Checking...') {
             parallel {
                 stage('Running Unit Tests') {
